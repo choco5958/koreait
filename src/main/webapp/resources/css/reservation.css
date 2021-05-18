@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* HTML5 display-role reset for older browsers */
+
+
+.hr{
+	width:90%;
+	margin-top:150px;
+	text-align:center;
+	padding-bottom:50px;
+}
+
+.hr2{
+	width:90%;
+	margin-top:100px;
+	text-align:center;
+	padding-bottom:50px;
+}
+
+.carousel slide{
+	width:100%;
+	
+}
+
+
+.item1{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	padding-bottom:50px;
+	height:600px;
+	
+}
+
+.item1_1{	
+	width:50%;
+	height:90%;
+	text-align:center;
+	margin-left:100px;
+}
+
+.item1_2{
+	height:100%;
+	width:25%;
+	padding-top:70px;
+	padding-bottom:50px;
+	margin-top:30px;
+	margin-left:100px;
+	margin-right:100px;
+	text-align:center;
+	border: 1px solid black;
+	border-radius:50px;
+	
+}
+
+.item3{
+	text-align:center;
+	margin-bottom:50px;
+}
+
+
+.button{
+	margin-top:70px;
+	margin-bottom: 10px;
+	border-radius:150px; 
+	background-color: #FFFFFF;
+	width:10%;	
+	border-width:1px; 
+	line-height: 40px;
+	font-size:20px;
+}
+
+.input{
+	 border-style:none;
+     border-bottom:solid 1px #cacaca;
+     width: 200px;
+     margin-bottom:40px;
+     letter-spacing: 2px; 
+}
+
+.select{
+	margin-bottom:50px;
+	border-radius:50px;
+	font-size:15px;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	-o-appearance:none;
+	appearance:none;
+	text-align-last: center;
+    text-align: center;
+   -ms-text-align-last: center;
+   -moz-text-align-last: center;
+	width:200px;
+	line-height: 30px;
+	border:1px solid #ddd;
+	background: url(../image/down-arrow.png) no-repeat 95% 50%;
+}
+select::-ms-expand { display: none; }
+
+table.type {
+  border-collapse: collapse;
+  text-align: center;
+  line-height: 1.5;
+  margin: 50px 10px;
+}
+
+table.type thead th {
+  padding: 10px;
+  font-weight: bold;
+  border-top: 1px solid #eee; 
+  border-bottom: 2px solid #eee;
+  border-right: 1px solid #eee;
+  border-left: 1px solid #eee;  
+}
+table.type tbody th {
+  width: 150px;
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: top;
+  border-bottom: 1px solid #eee; 
+  border-right: 1px solid #eee; 
+}
+table.type td {
+  width: 400px;
+  padding: 10px;
+  vertical-align: top;
+  border-bottom: 1px solid #eee;
+}
+
+.title{
+	margin-top:20px;
+	margin-bottom:120px;
+	font-size:40px;
+}

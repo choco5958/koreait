@@ -1,0 +1,176 @@
+@charset "UTF-8";/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/*========================== CSS 초기화 ============================= */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+a{
+	text-decoration:none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*==================================================================*/
+html, body {
+    min-width: 320px;
+    letter-spacing: 0px;
+    font-family: 맑은고딕, "malgun gothic", 돋움, Dotum, "Apple SD Gothic Neo", Helvetica, sans-serif;
+    width: auto !important;
+}
+
+.bottom{
+	
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #f4f4f4;
+	height:55px;
+}
+.menu ul{
+	line-height:55px;
+	max-width: 1020px;
+    margin: 0 auto;
+    padding-left: 0;
+    overflow: hidden;
+}
+.menu li{
+	float:left;
+	margin:0px 7px;
+}
+.menu li a{
+	font-size:14px;
+	color:#666;
+}
+.menu li:after {
+    float: right;
+    display: block;
+    content: "|";
+    color: #d9d9d9;
+    margin-left:12px;
+}
+.menu li.sns-link{
+	float:right;
+}
+.menu li.sns-link a span{
+	display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: -1px 5px 0 0;
+    vertical-align: middle;
+    
+}
+.facebook span{
+	background:url(../image/facebook.jpg);
+}
+.instagram span{
+	background:url(../image/instagram.png);
+}
+.blog span{
+	background:url(../image/blog.png);
+}
+.company{
+	text-align:left;
+	width:60%;
+	float:left;
+}
+.company dl{
+	padding-top:25px;
+	margin:0 7px;
+}
+.company dt{
+	font-weight:bold;
+	color:#000;
+	margin: 0 0 10px 0;
+	font-size : 16px;
+}
+.company dd{
+	font-size: 13px;
+    line-height: 20px;
+    color: #888;
+    font-weight: 300;
+}
+.box_footer{
+	margin:20px 20px 20px 0;
+}
+.box_footer a{
+	display : inline-block;
+	height:24px;
+	margin:0 7px 0 0;
+	line-height: 22px;
+	padding: 0 6px;
+	color:#888;
+	box-sizing:border-box;
+	border:1px solid #ccc;
+	text-align:center;
+	font-size:12px;
+	vertical-align:top;
+		
+}
+.company p{
+	color:#888;
+	font-size:10px;
+	margin-left:7px;
+}
+.company-contact{
+	text-align:left;
+	float:right;
+	width:40%;
+	padding-bottom:30px;
+}
+.company-contact dl{
+	padding-top:25px;
+	
+}
+
+.company-contact dt{
+	font-weight:bold;
+	color:#000;
+	margin: 0 0 10px 0;
+	font-size : 16px;
+}
+.company-contact dd{
+	font-size: 13px;
+    line-height: 20px;
+    color: #888;
+    font-weight: 300;
+}
+

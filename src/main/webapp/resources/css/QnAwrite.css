@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+div.QnAwriter{
+	font-size: 12px;
+	text-align: center;
+}
+
+div.QnAwriter td,th{ 
+	vertical-align:middle;
+	}
+
+div.QnAwriter h2{
+	font-size: 22px;
+	margin-bottom: 70px;
+}
+
+div.QnAwriter img{
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+div.QnAwriter table{
+	width : 800px;
+	height : 700px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fffafa;
+}
+
+div.QnAwriter .title{
+	height: 45px;
+	width: 85%;
+	margin-top: 50px;
+}
+
+div.QnAwriter .tr{
+	height: 50px;
+	text-align: left;
+}
+
+div.QnAwriter .tr{
+	height: 50px;
+	text-align: left;
+}
+
+div.QnAwriter .tr_board{
+	height: 500px;
+	text-align: left;
+}

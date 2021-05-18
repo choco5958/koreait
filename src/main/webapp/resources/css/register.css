@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+
+/*========================== CSS 초기화 ============================= */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+a{
+	text-decoration:none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*==================================================================*/
+
+html, body {
+    min-width: 320px;
+    letter-spacing: 0px;
+    font-family: 맑은고딕, "malgun gothic", 돋움, Dotum, "Apple SD Gothic Neo", Helvetica, sans-serif;
+    width: auto !important;
+}
+
+.main{
+	margin-top:200px;
+	margin-bottom:100px;
+}
+
+.ptitle{
+	margin-bottom:70px;
+	font-size:40px;	
+}
+
+.input {
+	margin-top:20px;
+	margin-bottom: 10px;
+	border-radius:20px; 
+	background-color: #FFFFFF;
+	width:90px;	
+	border-width:1px; 
+	line-height: 25px;
+}
+
+.onlyunder{
+	 border-style:none;
+     border-bottom:solid 1px #cacaca;
+     width: 300px;
+     margin-bottom:7px; 
+     font-size:12px;
+     letter-spacing: 2px;
+     line-height: 25px; 
+}
+
+
+.divform{
+	padding-top:20px;
+	padding-bottom:20px;
+	width: 400px;
+	border: 1px solid;
+	border-radius:30px;
+	background-color: #ffffff;
+	font-size:15px;	
+}
+
+
+
+.divpadding{
+	padding-top:12px;
+	padding-bottom:12px;
+}
+
+
+ 

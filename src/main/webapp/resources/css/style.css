@@ -1,0 +1,213 @@
+@charset "UTF-8";
+.card{
+	overflow:hidden;
+}
+.card-link{
+	color:#333;
+	text-decoration:none;
+	display: block;
+    border-bottom: 1px solid #dcdcdc;
+    height:274px;
+}
+.promotion-img {
+	overflow:hidden;
+}
+.card-link:hover{
+	color:#333;
+	text-decoration:none;
+}
+.card img{
+	-webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1); 
+    -o-transform:scale(1);  
+    transform:scale(1);
+    -webkit-transition:.2s;
+    -moz-transition:.2s;
+    -ms-transition:.2s;
+    -o-transition:.2s;
+    transition:.2s;
+}
+.card img:hover{
+	-webkit-transform:scale(1.05);
+    -moz-transform:scale(1.05);
+    -ms-transform:scale(1.05);   
+    -o-transform:scale(1.05);
+    transform:scale(1.05);
+    -webkit-transition:.2s;
+    -moz-transition:.2s;
+    -ms-transition:.2s;
+    -o-transition:.2s;
+    transition:.2s;
+}
+.content{
+	margin:0px auto;
+	margin-top:77px;
+}
+.content .rewards-title{
+	text-align:center;
+	font-size:34px;
+	padding: 0 0 50px 30px;
+	position:relative;
+	color:#333;
+}
+.rewards-title .btn-ttl-more {
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    font-size: 16px;
+    color: #666;
+    padding-right: 15px;
+    margin-right:20px;
+}
+
+.rewards-title .btn-ttl-more::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 4px;
+    width: 8px;
+    height: 8px;
+    border-width: 1px 1px 0 0;
+    border-color: #666;
+    border-style: solid;
+    transform: rotate(45deg);
+}
+.promotion{
+	width:1660px;
+	margin:0px auto;
+}
+.promotion .card-title{
+	display: inline-block;
+	font-size:14px;
+    background: #000;
+    color: #fff;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+.promotion .card-sub-title{
+	height: 56px;
+    font-size: 22px;
+    margin: 10px 0 15px;
+    line-height: 27px;
+}
+.promotion-copy{
+	height: 80px;
+    overflow: hidden;
+    padding: 15px 0;
+    border-top: 2px solid #dcdcdc;
+    height: 56px;
+    line-height: 22px;
+    padding: 12px 0 10px;
+    margin: 10px 0 8px;
+    display: -webkit-box;
+    display: box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    line-clamp: 2;
+    -webkit-line-clamp: 2;
+    line-height: 22x;
+}
+}
+.promotion-copy span{
+	display: box;
+    display: -webkit-box;
+    height: 51px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    line-clamp: 2;
+    -webkit-line-clamp: 2;
+    line-height: 1.5;
+    font-size: 16px;
+}
+.promotion-price{
+	padding: 10px 0 70px;
+}
+.promotion-price .category{
+	margin-top: 8px;
+	font-size:14px;
+}
+.promotion-price .price-number{
+	display:inline-block;
+	float:right;
+	margin-right:40px;
+	
+}
+.promotion-price .price-number span{
+	font-weight:bold;
+	font-size:42px;
+}
+.room-intro{
+	width:100%;
+	margin-top:70px;
+	
+}
+.room-intro .card-title{
+	font-size:17px;
+	font-weight:bold;
+}
+.dinning-intro{
+	margin-top:70px;
+	text-align:center;
+}
+.dinning-intro .title{
+	font-size: 26px;
+    font-weight: bold;
+    line-height: 1.15;
+    color: #333;
+    padding-bottom: 30px;
+}
+.dinning-intro .desc{
+	font-size: 16px;
+    font-weight: 300;
+    line-height: 1.69;
+    color: #282828;
+    margin:0px auto;
+    margin-bottom: 36px;
+    width:500px;
+}
+.dinning-btn{
+	border: 1px solid transparent;
+    font-size: 16px;
+    margin: 0 0 18px;
+    min-height: 44px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: inline-block;
+    text-align: center;
+    border-radius: 0;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 13px 30px;
+    border-color: #7d6a55;
+    color: #7d6a55;
+    text-decoration: none;
+}
+.dinning-btn:hover{
+	background-color: #7d6a55;
+	color:#fff;
+	font-weight:bold;
+	text-decoration: none;
+}
+.dinning-img{
+	margin-top:70px;
+}
+.room-intro .card{
+	height:400px;
+}
+.page-down a, button, [tabindex], label {
+    transition-timing-function: ease-out;
+    transition-duration: .2s;
+    transition-property: border-color,background-color,color,opacity;
+}
+
+.carousel-inner {
+    height: 870px;
+}

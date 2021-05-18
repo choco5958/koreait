@@ -1,0 +1,41 @@
+@charset "UTF-8";
+.card-link{
+	text-decoration:none;
+	color:#000;
+}
+.card-link:hover{
+	color:#000;
+}
+.wrapper{
+	width:1156px;
+	margin:0 auto;
+	margin-top:122px;
+	margin-bottom:122px;
+}
+.wrapper h1{
+	font-size: 32px;
+    border-bottom: 1px solid #333;
+    margin: 40px 12px;
+    padding: 14px;
+}
+.card{
+	width:505px;
+}
+.card img{
+	height:348px;
+}
+.card h5{
+	display:inline-block;
+	font-weight:bold;
+	font-size:24px;
+}
+.card .sub-title{
+	display:inline-block;
+	float:right;
+	font-size:18px;
+	border:1px solid black;
+	padding:10px 12px;
+}
+.wrapper .row{
+	margin : auto;
+}

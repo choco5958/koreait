@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.container-md{
+	height: 1000px;
+	text-align: center;
+}
+
+.input-group{
+	margin-bottom: 40px;
+}
+
+
+.input-group-text{
+	width: 130px;	
+}
+
+.h2{
+	text-align: center;
+	color: gray;
+}
+
+.img{
+	margin-top : 50px;
+	text-align: center;
+}
+
+.button{
+	border-radius:20px; 
+	background-color: #FFFFFF;
+	width:90px;	
+	border-width:1px; 
+	line-height: 25px;
+	margin-bottom:30px;
+}
+
+.form-control{
+	text-align: left;
+}
+

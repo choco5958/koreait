@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+.item{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	padding-top:50px;
+	padding-bottom:50px;
+	height:100%;
+	margin-top:100px;
+	margin-bottom:100px;
+}
+
+table.list {
+  border-collapse: separate;
+  border-spacing: 1px;
+  text-align: center;
+  line-height: 1.5;
+  margin: 20px 10px;
+}
+table.list th {
+  width: 155px;
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: top;
+  color: #fff;
+  background: #b3e5fc;
+}
+table.list td {
+  width: 155px;
+  padding: 15px;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+}
+
+.button{
+	border-radius:150px; 
+	background-color: #FFFFFF;
+	width:70px;	
+	border-width:1px; 
+	font-size:15px;	
+}
+
+.hr{
+	width:90%;
+	text-align:center;
+	margin-top:150px;
+}
+
+.hr2{
+	width:90%;
+	text-align:center;
+	margin-top:50px;
+	padding-bottom:50px;
+}
+
+.title{
+	margin-top:20px;
+	padding-bottom:50px;
+	font-size:30px;
+}
+
+.input{
+	margin-left:30px;
+	margin-right:30px;
+	border-style:none;
+	border-bottom:solid 2px #b3e5fc;
+	line-height: 25px; 
+	text-align:center;
+}
+
+.search{
+	border:3px solid #b3e5fc;
+	border-radius:50px;
+	width:60%;
+	height:100px; 
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	margin: 0 auto;
+	margin-bottom:100px;
+}
+
+.searchbtn{
+	border-radius:20px; 
+	background-color: #FFFFFF;
+	width:90px;	
+	border-width:1px; 
+	line-height: 25px;
+}
