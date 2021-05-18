@@ -50,7 +50,7 @@
 
 	<div class="content">
 		<div class="rewards-title">
-			<span>코리아아이티 서울 추천 프로모션</span> <a href="#" class="btn-ttl-more">프로모션
+			<span>The White Hotel 추천 프로모션</span> <a href="#" class="btn-ttl-more">프로모션
 				더보기</a>
 		</div>
 		<div class="promotion">
@@ -63,7 +63,7 @@
 					</div>
 					<div class="card-body">
 						<a href="#" class="card-link">
-							<h5 class="card-title">코리아아이티 서울</h5>
+							<h5 class="card-title">The White Hotel</h5>
 							<h3 class="card-sub-title">World Tower Special</h3>
 							<div class="promotion-copy">
 								<span>객실 1박 + 조식 2인 + 티켓 2매</span>
@@ -90,7 +90,7 @@
 					</div>
 					<div class="card-body">
 						<a href="#" class="card-link">
-							<h5 class="card-title">코리아아이티 서울</h5>
+							<h5 class="card-title">The White Hotel</h5>
 							<h3 class="card-sub-title">Eternal Promise</h3>
 							<div class="promotion-copy">
 								<span>객실 1박 + 조식 2인 + 티켓 2매</span>
@@ -117,7 +117,7 @@
 					</div>
 					<div class="card-body">
 						<a href="#" class="card-link">
-							<h5 class="card-title">코리아아이티 서울</h5>
+							<h5 class="card-title">The White Hotel</h5>
 							<h3 class="card-sub-title">얼리버드 프로모션 - 20일 전 예약</h3>
 							<div class="promotion-copy">
 								<span>객실 1박 + 조식 2인 + 티켓 2매</span>
